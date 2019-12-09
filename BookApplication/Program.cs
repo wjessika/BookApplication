@@ -11,6 +11,8 @@ namespace BookApplication
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /// James' code 
+
         [STAThread]
         static void Main()
         {
