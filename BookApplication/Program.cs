@@ -8,10 +8,15 @@ namespace BookApplication
 {
     static class Program
     {
+        //PA6 Group names:
+        //James Williams
+        //Jessika Wren
+        //Myah Martin
+
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        /// James' code 
 
         [STAThread]
         static void Main()
