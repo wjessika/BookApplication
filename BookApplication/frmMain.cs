@@ -122,6 +122,7 @@ namespace BookApplication
             txtTitlebox.Text = myBook.title;
             txtAuthorbox.Text = myBook.author;
             txtGenrebox.Text = myBook.genre;
+            txtISBNbox.Text = myBook.isbn;
             txtCopiesbox.Text = myBook.copies.ToString();
             txtLengthbox.Text = myBook.length.ToString();
 
@@ -133,8 +134,11 @@ namespace BookApplication
             {
 
             }
-        }    
+        }
 
-
+        private void TxtISBNbox_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

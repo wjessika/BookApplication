@@ -51,7 +51,7 @@
             // txtLengthbox
             // 
             this.txtLengthbox.Location = new System.Drawing.Point(18, 269);
-            this.txtLengthbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtLengthbox.Margin = new System.Windows.Forms.Padding(2);
             this.txtLengthbox.Name = "txtLengthbox";
             this.txtLengthbox.Size = new System.Drawing.Size(137, 20);
             this.txtLengthbox.TabIndex = 23;
@@ -69,10 +69,11 @@
             // txtISBNbox
             // 
             this.txtISBNbox.Location = new System.Drawing.Point(18, 222);
-            this.txtISBNbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtISBNbox.Margin = new System.Windows.Forms.Padding(2);
             this.txtISBNbox.Name = "txtISBNbox";
             this.txtISBNbox.Size = new System.Drawing.Size(137, 20);
             this.txtISBNbox.TabIndex = 21;
+            this.txtISBNbox.TextChanged += new System.EventHandler(this.TxtISBNbox_TextChanged);
             // 
             // lblISBN
             // 
@@ -87,7 +88,7 @@
             // txtCopiesbox
             // 
             this.txtCopiesbox.Location = new System.Drawing.Point(18, 178);
-            this.txtCopiesbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCopiesbox.Margin = new System.Windows.Forms.Padding(2);
             this.txtCopiesbox.Name = "txtCopiesbox";
             this.txtCopiesbox.Size = new System.Drawing.Size(137, 20);
             this.txtCopiesbox.TabIndex = 19;
@@ -105,7 +106,7 @@
             // txtGenrebox
             // 
             this.txtGenrebox.Location = new System.Drawing.Point(18, 133);
-            this.txtGenrebox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtGenrebox.Margin = new System.Windows.Forms.Padding(2);
             this.txtGenrebox.Name = "txtGenrebox";
             this.txtGenrebox.Size = new System.Drawing.Size(137, 20);
             this.txtGenrebox.TabIndex = 17;
@@ -123,7 +124,7 @@
             // txtAuthorbox
             // 
             this.txtAuthorbox.Location = new System.Drawing.Point(18, 88);
-            this.txtAuthorbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAuthorbox.Margin = new System.Windows.Forms.Padding(2);
             this.txtAuthorbox.Name = "txtAuthorbox";
             this.txtAuthorbox.Size = new System.Drawing.Size(137, 20);
             this.txtAuthorbox.TabIndex = 15;
@@ -141,7 +142,7 @@
             // txtTitlebox
             // 
             this.txtTitlebox.Location = new System.Drawing.Point(18, 43);
-            this.txtTitlebox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTitlebox.Margin = new System.Windows.Forms.Padding(2);
             this.txtTitlebox.Name = "txtTitlebox";
             this.txtTitlebox.Size = new System.Drawing.Size(137, 20);
             this.txtTitlebox.TabIndex = 13;
@@ -159,7 +160,7 @@
             // txtCoverData
             // 
             this.txtCoverData.Location = new System.Drawing.Point(18, 313);
-            this.txtCoverData.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCoverData.Margin = new System.Windows.Forms.Padding(2);
             this.txtCoverData.Name = "txtCoverData";
             this.txtCoverData.Size = new System.Drawing.Size(137, 20);
             this.txtCoverData.TabIndex = 25;
@@ -179,7 +180,7 @@
             // pbBookCover
             // 
             this.pbBookCover.Location = new System.Drawing.Point(215, 50);
-            this.pbBookCover.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbBookCover.Margin = new System.Windows.Forms.Padding(2);
             this.pbBookCover.Name = "pbBookCover";
             this.pbBookCover.Size = new System.Drawing.Size(168, 260);
             this.pbBookCover.TabIndex = 26;
@@ -188,7 +189,7 @@
             // btnSave
             // 
             this.btnSave.Location = new System.Drawing.Point(215, 342);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(58, 25);
             this.btnSave.TabIndex = 27;
@@ -199,7 +200,7 @@
             // btnClose
             // 
             this.btnClose.Location = new System.Drawing.Point(308, 342);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(2);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(58, 25);
             this.btnClose.TabIndex = 28;
@@ -229,7 +230,7 @@
             this.Controls.Add(this.lblAuthor);
             this.Controls.Add(this.txtTitlebox);
             this.Controls.Add(this.lblTitle);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmEdit";
             this.Text = "frmEdit";
             this.Load += new System.EventHandler(this.FrmEdit_Load);

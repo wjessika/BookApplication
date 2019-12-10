@@ -74,5 +74,10 @@ namespace BookApplication
             MessageBox.Show("Content was saved", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
         }
+
+        private void TxtISBNbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
